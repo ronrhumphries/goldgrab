@@ -18,5 +18,9 @@ var config = {
 };
 var game = new Phaser.Game(config);
 function preload() {}
-function create() {}
+
+function create() {
+  this.socket = io();
+}
+
 function update() {}
